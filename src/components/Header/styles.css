@@ -1,0 +1,33 @@
+header {
+  width: 90%;
+  margin: auto;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-logo {
+  max-width: 80px;
+}
+
+.nav-items {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+.nav-link {
+  padding: 10px;
+  text-decoration: none;
+  font-size: 0.875rem;
+  font-family: 'Raleway', sans-serif;
+}
+
+@media only screen and (min-width: 350px) {
+  .nav-lin {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,40 @@
+.early-access-wrapper {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 120px;
+  padding: 10% 5%;
+  border-radius: 7px;
+  background-color: #1B2330;
+}
+
+.early-text {
+  margin-top: 1rem;
+}
+
+.early-access-form {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.early-access-form input, .early-access-form button {
+  padding: 1rem;
+  padding-inline-start: 30px;
+  border-radius: 100px;
+  text-align: left;
+  border: none;
+}
+
+.early-access-form input::placeholder {
+  color: #C0C0C0;
+}
+
+.early-access-form button {
+  margin-top: 1.5rem;
+  
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+
+  background: linear-gradient(115deg, rgb(91, 214, 215), rgb(57, 167, 206)) ;
+}

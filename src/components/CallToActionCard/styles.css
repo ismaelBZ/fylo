@@ -1,0 +1,25 @@
+.cta-card-wrapper{
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 1.5rem;
+}
+
+.illustration-intro {
+  max-width: 100%;
+}
+
+.cta-title {
+  margin-top: 2rem;
+  font-family: 'Raleway', sans-serif;
+}
+
+.cta-description {
+  margin-top: 1.5rem;
+}
+
+.cta-btn {
+  margin-top: 2rem;
+  width: 80%;
+  padding: 1rem;
+  border-radius: 100px;
+}

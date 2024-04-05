@@ -1,0 +1,15 @@
+.team-wrapper {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 120px;
+
+  position: relative;
+}
+
+.quotes{
+  width: 32px;
+  position: absolute;
+  top: -15px;
+  left: 10px;
+  z-index: -1;
+}

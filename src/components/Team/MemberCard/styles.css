@@ -1,0 +1,38 @@
+.member-card-wrapper {
+  margin: 0 auto;
+  margin-bottom: 25px;
+  padding: 25px 20px 22px;
+  border-radius: 5px;
+  background-color: #202A3C;
+}
+
+.member-comment {
+  text-align: left;
+}
+
+.member-info-wrapper {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.member-img {
+  max-width: 35px;
+  border-radius: 50%;
+}
+
+.member-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.25rem;
+}
+
+.member-name {
+  font-size: 0.875rem;
+}
+
+.member-role {
+  font-size: 0.75rem
+}

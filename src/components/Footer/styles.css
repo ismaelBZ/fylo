@@ -1,0 +1,60 @@
+footer h2, footer, ul, footer li,  footer a, footer img, footer p {
+  text-align: left;
+  text-decoration: none;
+  list-style: none
+}
+
+footer {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 2.75rem;
+}
+
+.footer-logo {
+  width: 100%;
+  max-width: 110px;
+  padding-left: 10px;
+}
+
+.f-flex {
+  margin-top: 1rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.footer-location {
+  margin-top: 2.2rem;
+}
+
+.footer-location-icon {
+  height: 22px;
+}
+
+.footer-text {
+  font-size: 0.9rem;
+  color: #d2d2d2;
+}
+
+.footer-title {
+  margin-top: 3.5rem;
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+.footer-link {
+  display: inline-block;
+  margin-top: 1rem;
+  font-size: 0.875rem;
+}
+
+.footer-social-media {
+  margin-top: 3.5rem;
+  padding-bottom: 5.8rem;
+}
+
+.footer-sm-links-wrapper {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}

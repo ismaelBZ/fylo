@@ -1,0 +1,36 @@
+.productive-wrapper {
+  width: 82%;
+  margin: 0 auto;
+  margin-top: 120px;
+  text-align: left;
+}
+
+.productive-team-img {
+  width: 100%;
+}
+
+.productive-title {
+  margin-top: 3rem;
+  font-size: 1rem;
+  text-align: left;
+  font-family: 'Raleway', sans-serif;
+}
+
+.productive-text{
+  margin: 1rem 0;
+  text-align: left;
+}
+
+.productive-link {
+  font-size: 0.875rem;
+  text-decoration: none;
+  color: #62E0D9;
+  
+  padding-bottom: 5px;
+  border-bottom: 1px solid #62E0D9;
+}
+
+.productive-link img {
+  transform: translate(15%, 25%)
+}
+

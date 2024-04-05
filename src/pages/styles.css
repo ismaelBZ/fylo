@@ -1,0 +1,22 @@
+.app-wrapper {
+  position: relative;
+  background-color: #1b2330;
+  z-index: -2;
+}
+
+.description {
+  font-size: 0.875rem;
+  color: #d2d2d2;
+}
+
+.gradient {
+  background: linear-gradient(115deg, rgb(91, 214, 215), rgb(57, 167, 206));
+  font-size: 1rem;
+  border: none;
+  outline: none;
+}
+
+.component-title {
+  font-size: 1.125rem;
+  font-family: 'Raleway', sans-serif;
+}
