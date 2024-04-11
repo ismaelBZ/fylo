@@ -5,9 +5,11 @@ footer h2, footer, ul, footer li,  footer a, footer img, footer p {
 }
 
 footer {
-  width: 90%;
+  width: 100svw;
+  padding: 60px 5%;
   margin: 0 auto;
-  margin-top: 2.75rem;
+  margin-top: 60px;
+  background-color: #0B1524;
 }
 
 .footer-logo {
@@ -36,21 +38,19 @@ footer {
   color: #d2d2d2;
 }
 
-.footer-title {
+.footer-links-wrapper{
   margin-top: 3.5rem;
-  font-size: 1rem;
-  font-weight: normal;
 }
 
 .footer-link {
   display: inline-block;
   margin-top: 1rem;
   font-size: 0.875rem;
+  color: #d2d2d2;
 }
 
 .footer-social-media {
   margin-top: 3.5rem;
-  padding-bottom: 5.8rem;
 }
 
 .footer-sm-links-wrapper {
@@ -58,3 +58,40 @@ footer {
   gap: 10px;
   justify-content: center;
 }
+
+@media only screen and (min-width: 650px) {
+  .footer-info-wrapper {
+    display: grid;
+    grid:
+     "footer-location footer-location footer-location" 
+     "footer-contacts footer-contacts footer-contacts" 
+     "footer-about-us footer-contact-us footer-social-media"
+     / 1fr 1fr 1fr
+     ; 
+  }
+  .footer-location {grid-area: footer-location}
+  .footer-contacts {grid-area: footer-contacts}
+  .footer-about-us {grid-area: footer-about-us}
+  .footer-contact-us {
+    grid-area: footer-contact-us;
+    justify-self: center;
+  }
+  .footer-social-media {grid-area: footer-social-media}
+  
+}
+
+@media only screen and (min-width: 768px) {
+  footer {
+    margin-top: 100px;
+  }
+}
+
+@media only screen and (min-width: 850px) {
+  .footer-text {
+    font-size: 1rem;
+  }
+  
+  .footer-link {
+    font-size: 1rem;
+  }
+} 

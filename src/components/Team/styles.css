@@ -1,5 +1,6 @@
 .team-wrapper {
   width: 80%;
+  max-width: 530px;
   margin: 0 auto;
   margin-top: 120px;
 
@@ -12,4 +13,26 @@
   top: -15px;
   left: 10px;
   z-index: -1;
+}
+
+@media only screen and (min-width: 1024px) {
+  .team-wrapper {
+    width: 80%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .team-wrapper {
+    margin-top: 130px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+ .team-wrapper {
+  max-width: 1440px;
+ }
 }

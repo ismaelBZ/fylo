@@ -1,11 +1,20 @@
 .app-wrapper {
   position: relative;
-  background-color: #1b2330;
+  overflow: hidden;
+}
+
+.app-background {
+  position: absolute;
+  top: -50px;
+  left: -50px;
+  width: 200vw;
+  height: 10000px;
   z-index: -2;
+  background-color: #1b2330;
 }
 
 .description {
-  font-size: 0.875rem;
+  font-size: 0.938rem;
   color: #d2d2d2;
 }
 
@@ -19,4 +28,13 @@
 .component-title {
   font-size: 1.125rem;
   font-family: 'Raleway', sans-serif;
+}
+
+@media only screen and (min-width: 800px) {
+  .component-title {
+    font-size: 1.25rem;
+  }
+  .description {
+    font-size: 1rem;
+  }
 }

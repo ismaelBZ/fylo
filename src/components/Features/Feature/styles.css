@@ -1,5 +1,12 @@
 .feature {
+  max-width: 335px;
+  margin: 0 auto;
   margin-top: 80px;
+}
+
+.feature-image {
+  width: auto;
+  height: 80px;
 }
 
 .feature-title {

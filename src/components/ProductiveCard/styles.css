@@ -1,5 +1,6 @@
 .productive-wrapper {
   width: 82%;
+  max-width: 1200px;
   margin: 0 auto;
   margin-top: 120px;
   text-align: left;
@@ -11,7 +12,7 @@
 
 .productive-title {
   margin-top: 3rem;
-  font-size: 1rem;
+  font-size: 1.5rem;
   text-align: left;
   font-family: 'Raleway', sans-serif;
 }
@@ -25,12 +26,43 @@
   font-size: 0.875rem;
   text-decoration: none;
   color: #62E0D9;
-  
+  float: left;
   padding-bottom: 5px;
   border-bottom: 1px solid #62E0D9;
 }
 
 .productive-link img {
   transform: translate(15%, 25%)
+}
+
+@media only screen and (min-width: 650px) {
+  .productive-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  .productive-text-wrapper {
+    max-width: 585px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .productive-wrapper {
+    margin-top: 95px
+  }
+}
+
+@media only screen and (min-width: 850px) {
+  .productive-title {
+    font-size: 1.625rem;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .productive-wrapper {
+    max-width: 1440px;
+    justify-content: center;;
+    gap: 6rem;
+  }
 }
 

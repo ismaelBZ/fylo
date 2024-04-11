@@ -1,7 +1,7 @@
 .early-access-wrapper {
   width: 90%;
   margin: 0 auto;
-  margin-top: 120px;
+  margin-top: 60px;
   padding: 10% 5%;
   border-radius: 7px;
   background-color: #1B2330;
@@ -30,6 +30,9 @@
 }
 
 .early-access-form button {
+  width: 100%;
+  max-width: 350px;
+  margin: 0 auto;
   margin-top: 1.5rem;
   
   font-size: 1rem;
@@ -37,4 +40,41 @@
   text-align: center;
 
   background: linear-gradient(115deg, rgb(91, 214, 215), rgb(57, 167, 206)) ;
+}
+
+
+@media only screen and (min-width: 768px) {
+  .early-access-wrapper {
+    margin-top: 100px;
+  }
+}
+
+@media only screen and (min-width: 850px) {
+  .early-access-wrapper {
+    width: 80%;
+    max-width: 850px;
+    padding: 85px 5%;
+  }
+
+  .early-access-title {
+    font-size: 2rem;
+  }
+  
+  .early-access-form {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .early-access-form > input , .early-access-form > button {
+    height: 62px;
+  }
+
+  .early-access-form > input {
+    width: 65%;
+  }
+
+  .early-access-form > button {
+    margin: 0;
+    max-width: 30%;
+  }
 }
